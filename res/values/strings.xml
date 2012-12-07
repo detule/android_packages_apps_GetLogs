@@ -13,4 +13,5 @@
     <string name="LINE_SEPERATOR">\n</string>
     <string name="LIST_SEPERATOR">!!@!!</string>
     <string name="fileText">Just a File</string>
+    <string name="blankText"></string>
 </resources>
