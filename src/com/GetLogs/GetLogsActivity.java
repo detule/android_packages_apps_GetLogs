@@ -234,7 +234,7 @@ public class GetLogsActivity extends Activity implements Runnable {
 			{
 				writer.writeBytes("echo ======================= RADIO LOG =================== >> " + fileName + "\n");
 				writer.flush();
-				writer.writeBytes("logcat -v time -b radio -d | tail -n 1000 >> " + fileName + "\n");
+				writer.writeBytes("logcat -v time -b radio -d | tail -n 10000 >> " + fileName + "\n");
 				writer.flush();
 			}
 			
